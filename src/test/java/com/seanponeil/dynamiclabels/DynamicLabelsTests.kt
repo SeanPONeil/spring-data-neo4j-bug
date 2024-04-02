@@ -58,7 +58,7 @@ class DynamicLabelsTests(
     companion object {
         @Container
         @JvmStatic
-        val neo4j = Neo4jContainer("neo4j:latest").apply {
+        val neo4j = Neo4jContainer("neo4j:4.4").apply {
             withoutAuthentication()
         }
 
